@@ -1,0 +1,22 @@
+{
+  "name": "rea-url-cli",
+  "version": "1.1.0",
+  "description": "打开网页小工具",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rea": "bin/www"
+  },
+  "dependencies": {
+    "commander": "^4.0.1",
+    "eslint": "^6.7.2",
+    "inquirer": "^7.1.0",
+    "open": "^7.0.3",
+    "ora": "^4.0.3",
+    "os": "^0.1.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
